@@ -4,10 +4,10 @@
 Return a list whose values are from `num_list`, divided by `term`, and converted to integers.
 Here `num_list`, list of integers and `term`, integer are the parameters to the `div_nums()` function
 
-**New Variable:** `new_list` and is expected to hold list of integers
+**New Variable:** `new_list` and is expected to hold list of integers.
 **Accumulator:** `index`, intialized to 0 and is incremented in every iteration which is used as an index to add values to the new variable created.
-**Loop variable:** `num` and the data type is integer
-**Iterable:** `num_list`, the list of integers
+**Loop variable:** `num` and the data type is integer.
+**Iterable:** `num_list`, the list of integers.
 **At each iteration:** The list value retrieved in `num` is divided with the `term` and the quotient is added to the `new_list` using the `index`.
 **Returns:**`new_list` containing results from above operation.
 
@@ -37,10 +37,10 @@ Here `num_list`, list of integers and `term`, integer are the parameters to the 
 Return a list of characters that represent the last chararcter of each word in `word_list`
 Here `word_list`, list of strings is the parameter to the `last_chars()` function
 
-**New Variable:** `new_word_list` and is expected to hold list of strings
+**New Variable:** `new_word_list` and is expected to hold list of strings.
 **Accumulator:** `index`, intialized to 0 and is incremented in every iteration which is used as an index to add values to the new variable created.
-**Loop variable:** `each_word` and the data type is string
-**Iterable:** `word_list`, the list of strings
+**Loop variable:** `each_word` and the data type is string.
+**Iterable:** `word_list`, the list of strings.
 **At each iteration:** The list value retrieved in `each_word` and the last character of the word is added to the `new_word_list` at index `index` using reverse indexing of `each_word`.
 **Returns:**`new_word_list` containing results from above operation.
 
