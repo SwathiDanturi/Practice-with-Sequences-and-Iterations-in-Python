@@ -46,4 +46,10 @@ def last_chars(word_list):
     :param word_list: list of strings
     :return: list of strings
     """
-    return [""]
+
+    new_word_list = []
+    index = 0
+    for each_word in word_list:
+        new_word_list[index:index] = each_word[-1]
+        index += 1
+    return new_word_list
