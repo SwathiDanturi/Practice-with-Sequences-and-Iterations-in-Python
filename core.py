@@ -23,8 +23,11 @@ def div_nums(num_list, term):
     :param term: int
     :return: list of integers
     """
-
-    return [0]
+    
+    new_list = []
+    for num in num_list:
+        new_list.append(num // term)
+    return new_list
 
 
 def last_chars(word_list):
