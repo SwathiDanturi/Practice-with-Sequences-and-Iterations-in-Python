@@ -14,9 +14,9 @@ def test_last_chars_lastchars_o_d():
     """
     Test for input ['hello', 'world']
     """
-    word_list = ['hello', 'world']
+    words = ['hello', 'world']
     expected = ['o', 'd']
-    actual = last_chars(word_list)
+    actual = last_chars(words)
     assert actual == expected
 
 
@@ -24,7 +24,7 @@ def test_last_chars_lastchars_d_g_e():
     """
     Test for input ['Integrated', 'Computing', 'Practice']
     """
-    word_list = ['Integrated', 'Computing', 'Practice']
+    words = ['Integrated', 'Computing', 'Practice']
     expected = ['d', 'g', 'e']
-    actual = last_chars(word_list)
+    actual = last_chars(words)
     assert actual == expected

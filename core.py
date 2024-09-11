@@ -23,10 +23,12 @@ def div_nums(num_list, term):
     :param term: int
     :return: list of integers
     """
-    
+
     new_list = []
+    index = 0
     for num in num_list:
-        new_list.append(num // term)
+        new_list[index:index] = [num // term]
+        index += 1
     return new_list
 
 

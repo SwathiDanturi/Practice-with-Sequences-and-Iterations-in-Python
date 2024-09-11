@@ -4,17 +4,20 @@
 Return a list whose values are from `num_list`, divided by `term`, and converted to integers.
 Here `num_list`, list of integers and `term`, integer are the parameters to the `div_nums()` function
 
-**Accumulator:** `new_list` and is expected to hold list of integers
+**New Variable:** `new_list` and is expected to hold list of integers
+**Accumulator:** `index`, intialized to 0 and is incremented in every iteration which is used as an index to add values to the new variable created.
 **Loop variable:** `num` and the data type is integer
 **Iterable:** `num_list`, the list of integers
-**At each iteration:** A list value retrieved in `num` is divided with the `term` and quotient is added to the `new_list`
+**At each iteration:** The list value retrieved in `num` is divided with the `term` and the quotient is added to the `new_list` using the `index`.
 **Returns:**`new_list` containing results from above operation.
 
 ### Approach ###
-- Create a `new_list` variable.
+- Create a new list variable `new_list`.
+- A new `index` field intialized to 0
 - For every number `num` in the `num_list`:
     1. divide the number with the `term` using floor division (//)
-    2. append the value to the `new_list` variable
+    2. append the value to the `new_list` variable using `index`
+    3. `index` is incremented by 1
 - At the end of the loop, `new_list` variable contains the integer values of `num_list` values divided by the `term`
 - Return the `new_list`
 
@@ -26,5 +29,7 @@ Here `num_list`, list of integers and `term`, integer are the parameters to the 
 - git status
 - git commit -m 'design div_nums()`
 - git status
+
+
 
 ## Design of last_chars() core function
