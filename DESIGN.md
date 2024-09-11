@@ -2,11 +2,11 @@
 
 ### Ask:###
 Return a list whose values are from `num_list`, divided by `term`, and converted to integers.
-Here `num_list` and `term` are the parameters to the `div_nums()` function
+Here `num_list`, list of integers and `term`, integer are the parameters to the `div_nums()` function
 
-**Accumulator:** `new_list`
-**Loop variable:** `num`
-**Iterable:** `num_list`
+**Accumulator:** `new_list` and is expected to hold list of integers
+**Loop variable:** `num` and the data type is integer
+**Iterable:** `num_list`, the list of integers
 **At each iteration:** A list value retrieved in `num` is divided with the `term` and quotient is added to the `new_list`
 **Returns:**`new_list` containing results from above operation.
 
