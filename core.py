@@ -2,9 +2,9 @@
 Practice with sequences, iteration, and functions.
 File: core.py
 Initial authors: COMP801 instructors
-Date: 9/3/2024
-Developer: <replace with your name>
-Collaborator(s): <replace with your collaborator's name>
+Date: 9/5/2024
+Developer: Swathi Danturi
+Collaborator(s): Samhitha
 """
 
 

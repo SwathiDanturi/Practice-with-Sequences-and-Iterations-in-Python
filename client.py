@@ -1,5 +1,10 @@
 """
-<replace with appropriate module documentation (see core.py)
+Practice with sequences, iteration, and functions.
+File: client.py
+Initial authors: COMP801 instructors
+Date: 9/5/2024
+Developer: Swathi Danturi
+Collaborator(s): Samhitha
 """
 
 from core import div_nums, last_chars
