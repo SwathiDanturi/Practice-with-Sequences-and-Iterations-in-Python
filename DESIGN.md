@@ -1,6 +1,6 @@
 ## Design of div_nums() core function 
 
-### Ask:###
+### Ask
 Return a list whose values are from `num_list`, divided by `term`, and converted to integers.
 Here `num_list`, list of integers and `term`, integer are the parameters to the `div_nums()` function
 
@@ -11,7 +11,7 @@ Here `num_list`, list of integers and `term`, integer are the parameters to the 
 **At each iteration:** The list value retrieved in `num` is divided with the `term` and the quotient is added to the `new_list` using the `index`.
 **Returns:**`new_list` containing results from above operation.
 
-### Approach ###
+### Approach
 - Create a new list variable `new_list`.
 - A new `index` field intialized to 0
 - For every number `num` in the `num_list`:
@@ -21,9 +21,9 @@ Here `num_list`, list of integers and `term`, integer are the parameters to the 
 - At the end of the loop, `new_list` variable contains the integer values of `num_list` values divided by the `term`.
 - Return the `new_list`.
 
-**NOTE:**Floor division (//) gives the quotient rounded off to the smallest integer.
+**NOTE:** Floor division (//) gives the quotient rounded off to the smallest integer.
 
-### Version Control Steps: ### Run these commands in the git bash terminal window of VSCode.
+### Version Control Steps: Run these commands in the git bash terminal window of VSCode.
 - git status
 - git add .
 - git status
@@ -33,7 +33,7 @@ Here `num_list`, list of integers and `term`, integer are the parameters to the 
 
 
 ## Design of last_chars() core function
-### Ask:###
+### Ask
 Return a list of characters that represent the last chararcter of each word in `word_list`
 Here `word_list`, list of strings is the parameter to the `last_chars()` function
 
@@ -44,7 +44,7 @@ Here `word_list`, list of strings is the parameter to the `last_chars()` functio
 **At each iteration:** The list value retrieved in `each_word` and the last character of the word is added to the `new_word_list` at index `index` using reverse indexing of `each_word`.
 **Returns:**`new_word_list` containing results from above operation.
 
-### Approach ###
+### Approach
 - Create a new list variable `new_word_list`.
 - A new `index` field intialized to 0
 - For every string `each_word` in the `word_list`:
@@ -54,7 +54,7 @@ Here `word_list`, list of strings is the parameter to the `last_chars()` functio
 - At the end of the loop, `new_word_list` variable contains the last characters of `word_list` strings.
 - Return the `new_word_list`.
 
-### Version Control Steps: ### Run these commands in the git bash terminal window of VSCode.
+### Version Control Steps: Run these commands in the git bash terminal window of VSCode.
 - git status
 - git add .
 - git status
