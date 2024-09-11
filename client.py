@@ -19,6 +19,10 @@ def main():
     result = div_nums(nums, term)
     print(result)
 
+    word_list = ['hello', 'world']
+    result = last_chars(word_list)
+    print(result)
+
 
 if __name__ == "__main__":
     main()
